@@ -56,15 +56,31 @@
 		3DDA7CE524521593000FFB96 /* ProfileScreen */ = {
 			isa = PBXGroup;
 			children = (
-				3DDA7CE624521593000FFB96 /* AppDelegate.swift */,
+				3DDA7CFA245215CB000FFB96 /* Controller */,
 				3DDA7CE824521593000FFB96 /* SceneDelegate.swift */,
-				3DDA7CEA24521593000FFB96 /* ViewController.swift */,
-				3DDA7CEC24521593000FFB96 /* Main.storyboard */,
+				3DDA7CFB245215D7000FFB96 /* View */,
 				3DDA7CEF24521594000FFB96 /* Assets.xcassets */,
-				3DDA7CF124521594000FFB96 /* LaunchScreen.storyboard */,
 				3DDA7CF424521594000FFB96 /* Info.plist */,
 			);
 			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
+		3DDA7CFA245215CB000FFB96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA7CE624521593000FFB96 /* AppDelegate.swift */,
+				3DDA7CEA24521593000FFB96 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DDA7CFB245215D7000FFB96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA7CEC24521593000FFB96 /* Main.storyboard */,
+				3DDA7CF124521594000FFB96 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
